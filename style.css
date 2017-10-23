@@ -1,0 +1,242 @@
+﻿body {
+}
+
+/*NAVIGATION BAR*/
+.navigationBar {
+    background-color: #474E5D;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.navigationList:hover{
+    background:none;
+}
+
+/*JUMBOTRON COVER*/
+.cover{
+    background-image: url("Content/villacoverpicture.jpg");
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    background-size:cover; 
+    height:348px;
+}
+
+.left {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-size: cover;
+    color:white;
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.right{
+    margin:0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+    background-size:cover; 
+}
+
+/*LOCATIONS PICTURES*/
+.picLocationOne{
+    height:300px;
+    width:400px;
+    float:right;
+}
+.picLocationTwo{
+    height:300px;
+    width:400px;   
+}
+
+.picLocationThree{
+    height:300px;
+    width:400px;
+    float:right;  
+}
+
+/*LOCATIONS BANNERS*/
+.locations{
+    padding-top:0px;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    font-family: 'Titillium Web', sans-serif;
+}
+.locationOne{
+    padding:40px 40px 40px 40px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.locationTwo{
+    background-color:#474E5D;
+    padding:40px 40px 40px 40px;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.locationThree{
+    padding:40px 40px 40px 40px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*BANNER ADDS*/
+.amenitiesBanner{
+    background-color: #474E5D;
+    text-align:center;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.locationsBanner{
+    background-color: #474E5D;
+    text-align:center;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.reviewsBanner{
+    background-color: #474E5D;
+    text-align:center;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.contactsBanner{
+    background-color: #474E5D;
+    text-align:center;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+}
+#footer{
+    background-color: #474E5D;
+    text-align:center;
+    color:white;
+    height:100px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*CAROUSEL*/
+#carousel{
+    height:350px;
+    text-align:center;   
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*TABLE PICTURES*/
+.oneOne{
+    background-image:url("Content/villapool.jpg");
+    background-size:cover;
+    height:400px;
+    text-align:center;
+    display:inline-block;
+    padding-left:100px;
+    padding-top:150px;
+}
+
+.oneThree{
+    background-image:url("Content/villapoolday.jpg");
+    background-size:cover;
+    height:400px;
+    padding-left:100px;
+    padding-top:150px;
+}
+
+.twoTwo{
+    background-image:url("Content/whitebed.jpg");
+    background-size:cover;
+    height:400px;
+    padding-left:100px;
+    padding-top:150px;
+}
+
+.threeOne{
+    background-image:url("Content/patioday.jpg");
+    background-size:cover;
+    height:400px;
+    padding-left:100px;
+    padding-top:150px;
+}
+
+.threeThree{
+    background-image:url("Content/patioday2.jpg");
+    background-size:cover;
+    height:400px;
+    padding-left:100px;
+    padding-top:150px;
+}
+
+/*BOX WITH TEXT*/
+.gallery{
+    padding-top:40px;
+    padding-bottom:40px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.galleryText{
+    height:400px;
+    text-align:center;
+    display:inline-block;
+    padding-top:70px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*PAGE BUTTONS*/
+.galleryButton{
+    background-color:#474E5D;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.locOneThreeButton {
+    background-color: #474E5D;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.locTwoButton{
+    background-color:white;
+    color:#474E5D;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*CAPTION BOX*/
+.captionBox{
+    text-align:center;
+    background-color:rgba(71,78,93,0.8);
+    max-width:190px;
+    box-shadow: none;
+    border-color:rgba(71,78,93,0.8);
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*CAPTION TEXT*/
+.captionText{
+    color:white;
+    text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*FORM AREA*/
+.textArea{
+    padding-top:20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.submitButton{
+    float:right;
+    background-color:#474E5D;
+    color:white;
+    border-color:#474E5D;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.inputBox{
+    height:30px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.textBox {
+    height:120px;
+    width:435px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+

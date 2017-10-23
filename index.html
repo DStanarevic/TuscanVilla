@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="style.css" rel="stylesheet" />
+
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
+</head>
+<body>
+
+    <!--NAVIGATION BAR-->
+    <nav class="navbar navbar-default navigationBar">
+        <div class="container-fluid">
+
+            <!--TOP BAR WITH BURGER-->
+            <div class="navbar-header" id=listLogo>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainBar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#" style="color:white">Logo</a>
+            </div>
+
+            <!--NAV BAR MENU-->
+            <div class="collapse navbar-collapse" style="float:right" id="mainBar">
+                <ul class="nav navbar-nav navList">
+                    <li class="active"><a href="#locations" style="color:white">LOCATIONS</a></li>
+                    <li><a href="#amenities" style="color:white">AMENITIES</a></li>
+                    <li><a href="#reviews" style="color:white">REVIEWS</a></li>
+                    <li><a href="#contact" style="color:white">CONTACT </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--JUMBOTRON COVER-->
+    <div class="jumbotron cover">
+        <div class="container-fluid">
+            <div class="row innerColumn">
+                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 left">
+                    <h1>Tuscany Villa</h1>
+                    <h4>We specialize in relaxation.</h4>
+                </div>
+                <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3 right">
+                    <img style="float:right" src="Content/greenmap.jpg" id="mapPic" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--LOCATIONS BAR-->
+    <div class="container-fluid locationsBanner">
+        <h1>LOCATIONS</h1>
+        <p>Some places for you to go</p>   
+        <a name="locations"></a>     
+    </div>
+    
+
+    <!--LOCATION ONE-->
+    <div class="jumbotron locations">
+        <div class="container-fluid locationOne">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12">
+                    <h1>Location #1</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <button type="button" class="btn locOneThreeButton">Reserve now!</button>
+                </div>
+                <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                    <img src="Content/mountainvilla.jpeg" class="picLocationOne" />
+                </div>
+            </div>
+        </div>
+
+    <!-- Location Two-->
+        <div class="container-fluid locationTwo">
+            <div class="row">
+                <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                    <img src="Content/modernvilla.jpeg" class="picLocationTwo"/>
+                    
+                </div>
+                <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12">
+                    <h1>Location #2</h1>            
+                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <button type="button" class="btn locTwoButton">Check it out!</button>
+                </div>
+            </div>
+        </div>
+
+    <!--Location Three-->
+        <div class="container-fluid locationThree">
+            <div class="row">
+                <div class="col-lg-6 col-md-8 col-sm-6 col-xs-12">
+                    <h1>Location #3</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    <button type="button" class="btn locOneThreeButton">Join us!</button>
+                </div>
+                <div class="col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                    <img src="Content/grapefield.jpeg" class="picLocationThree"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--AMENITIES BANNER-->
+    <div class="container-fluid amenitiesBanner">
+        <h1>AMENITIES</h1>
+        <p>Some stuff for you to enjoy</p>
+        <a name="amenities"></a>
+    </div>
+
+    <!--GALLERY-->
+    <div class="container gallery">
+        <!--First row-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 oneOne">
+                <div class="thumbnail captionBox">
+                    <div class="caption oneOneCaption">
+                        <h3 class="captionText">RECEPTIONS</h3>                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 galleryText">
+                <h3>A THUMBNAIL FOR EVERY OCCASION</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas, dui sit amet interdum scelerisque, turpis purus malesuada tortor, id vestibulum ante enim sed turpis. Suspendisse mollis libero non nisl egestas rhoncus id quis nulla. </p>
+                
+                <button type="button" class="btn galleryButton">Check It Out!</button>              
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 oneThree">
+                <div class="thumbnail captionBox">
+                    <div class="caption oneThreeCaption">
+                        <h3 class="captionText">RELAX BY THE POOL</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Second row-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 galleryText">
+                <h3>WHAT SETS US APART</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas, dui sit amet interdum scelerisque, turpis purus malesuada tortor, id vestibulum ante enim sed turpis. Suspendisse mollis libero non nisl egestas rhoncus id quis nulla. </p>
+
+                <button type="button" class="btn galleryButton">Check It Out!</button>  
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 twoTwo">
+                <div class="thumbnail captionBox">
+                    <div class="caption twoTwoCaption">
+                        <h3 class="captionText">FEELS LIKE HOME</h3>                        
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 galleryText">
+                <h3>TALK TO STAFF</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas, dui sit amet interdum scelerisque, turpis purus malesuada tortor, id vestibulum ante enim sed turpis. Suspendisse mollis libero non nisl egestas rhoncus id quis nulla. </p>
+
+                <button type="button" class="btn galleryButton">Check It Out!</button>  
+            </div>
+        </div>
+
+        <!--Third row-->
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 threeOne">
+                <div class="thumbnail captionBox">
+                    <div class="caption threeOneCaption">
+                        <h3 class="captionText">ENJOY THE VIEWS</h3>                     
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 galleryText">
+                <h3>BOOK YOUR VILLA</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin egestas, dui sit amet interdum scelerisque, turpis purus malesuada tortor, id vestibulum ante enim sed turpis. Suspendisse mollis libero non nisl egestas rhoncus id quis nulla. </p>
+
+                <button type="button" class="btn galleryButton">Check It Out!</button>  
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 threeThree">
+                <div class="thumbnail captionBox">
+                    <div class="caption threeThreeCaption">
+                        <h3 class="captionText">PRIVATE DINING</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--CAROUSEL-->
+    <div class="container-fluid reviewsBanner">
+        <h1>REVIEWS</h1>
+        <p>What our customers say</p>
+        <a name="reviews"></a>
+    </div>
+
+    <div class="container-fluid">
+        <div id="carousel" class="carousel slide" data-ride="carousel">
+            <!-- INDICATORS -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+
+            <!-- SLIDES -->
+            <div class="carousel-inner" id="carousel">
+                <div class="item active" id="slideOne">
+                    <blockquote>
+                        <h1 style="font-style:italic">"Very nice, much wow."</h1>
+                        <p>Doge</p>
+                    </blockquote>
+                </div>
+
+                <div class="item">
+                    <blockquote>
+                        <h1 style="font-style:italic">"Most helpful company on the Internet."</h1>
+                        <p>Abraham Lincoln</p>
+                    </blockquote>
+                </div>
+
+                <div class="item">
+                    <h1 style="font-style:italic">"The only company I would buy a Villa from."</h1>
+                    <p>Chuck Norris</p>
+                </div>
+            </div>
+
+            <!-- LEFT AND RIGHT -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+
+    <!--CONTACT BAR-->
+    <div class="container-fluid contactsBanner">
+        <h1>CONTACT</h1>
+        <p>We've got the answer</p>
+        <a name="contact"></a>
+    </div>
+
+    <!--CONTACT AREA-->
+    <div class="container-fluid textArea">
+        <a name="contact"></a>
+        <div class="row">
+            <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+                <p>Contact us and we will reach out to you within 24 hours.</p>
+
+                <p><span class="glyphicon glyphicon-map-marker"></span> Cleveland, OH</p>
+                <p><span class="glyphicon glyphicon-phone"></span> 555 555-1212 </p>
+                <p><span class="glyphicon glyphicon-envelope"> email@email.com</span></p>
+
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 textForm" >
+                <form>
+                    <input type="text" name="name" placeholder="name" class="inputBox" size="30">             
+                    <input type="text" name="email" placeholder="email" class="inputBox" size="30">                         
+                </form>
+                <br/>
+                <textarea name="textbox" placeholder="Comment." class="textBox" cols="68">Comment.
+               
+                </textarea>
+                <br />
+                <form>
+                    <button type="submit" name="submitButton" class="submitButton">Submit</button>
+                    <br />
+                </form>
+            </div>
+           
+        </div>
+    </div>
+
+    <!--BOTTOM LABEL-->
+    <div class="footer" id="footer">
+        <h2><span class="glyphicon glyphicon-menu-up"></span></h2>
+        <p>Created by: Dejan Stanarevic</p>
+        <p>Not at all copyrighted</p>
+    </div>
+</body>
+</html>
