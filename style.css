@@ -1,7 +1,7 @@
 ﻿body {
 }
 
-/*NAVIGATION BAR*/
+/*NAVIGATION BAR STYLING*/
 .navigationBar {
     background-color: #474E5D;
     margin-top: 0px;
@@ -12,7 +12,7 @@
     background:none;
 }
 
-/*JUMBOTRON COVER*/
+/*JUMBOTRON COVER STYLING*/
 .cover{
     background-image: url("Content/villacoverpicture.jpg");
     margin:0px 0px 0px 0px;
@@ -36,7 +36,7 @@
     background-size:cover; 
 }
 
-/*LOCATIONS PICTURES*/
+/*MARGINS FOR LOCATIONS PICTURES*/
 .picLocationOne{
     height:300px;
     width:400px;
@@ -53,7 +53,7 @@
     float:right;  
 }
 
-/*LOCATIONS BANNERS*/
+/*FONT AND MARGINS FOR LOCATIONS TEXT*/
 .locations{
     padding-top:0px;
     padding-bottom:0px;
@@ -77,7 +77,7 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
-/*BANNER ADDS*/
+/*FONT AND MARGINS FOR SECTION BANNERS*/
 .amenitiesBanner{
     background-color: #474E5D;
     text-align:center;
@@ -113,14 +113,14 @@
     font-family: 'Titillium Web', sans-serif;
 }
 
-/*CAROUSEL*/
+/*CAROUSEL MARGINS*/
 #carousel{
     height:350px;
     text-align:center;   
     font-family: 'Titillium Web', sans-serif;
 }
 
-/*TABLE PICTURES*/
+/*TABLE PICTURES/AMENITIES*/
 .oneOne{
     background-image:url("Content/villapool.jpg");
     background-size:cover;
@@ -163,7 +163,7 @@
     padding-top:150px;
 }
 
-/*BOX WITH TEXT*/
+/*MARGINS FOR AMENITIES TEXT*/
 .gallery{
     padding-top:40px;
     padding-bottom:40px;
@@ -175,25 +175,6 @@
     text-align:center;
     display:inline-block;
     padding-top:70px;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-/*PAGE BUTTONS*/
-.galleryButton{
-    background-color:#474E5D;
-    color:white;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-.locOneThreeButton {
-    background-color: #474E5D;
-    color: white;
-    font-family: 'Titillium Web', sans-serif;
-}
-
-.locTwoButton{
-    background-color:white;
-    color:#474E5D;
     font-family: 'Titillium Web', sans-serif;
 }
 
@@ -211,6 +192,25 @@
 .captionText{
     color:white;
     text-align:center;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+/*VARIOUS BUTTONS ACROSS PAGE*/
+.galleryButton{
+    background-color:#474E5D;
+    color:white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.locOneThreeButton {
+    background-color: #474E5D;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.locTwoButton{
+    background-color:white;
+    color:#474E5D;
     font-family: 'Titillium Web', sans-serif;
 }
 
